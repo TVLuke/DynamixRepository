@@ -49,7 +49,9 @@ It sensdes data around the users phone
 </privacyRiskLevel>
 </supportedPrivacyRiskLevels>
 <supportedContextTypes>
-<dataType>org.ambientdynamix.contextplugins.sensordrone</dataType>
+<dataType>org.ambientdynamix.contextplugins.ambientlight</dataType>
+<dataType>org.ambientdynamix.contextplugins.temperature</dataType>
+<dataType>org.ambientdynamix.contextplugins.carbonmonoxide</dataType>
 </supportedContextTypes>
 <featureDependencies/>
 <permissions/>
