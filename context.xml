@@ -1,0 +1,38 @@
+<contextTypes>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.reddot</id>
+        <name>Red Dot</name>
+        <description>Utterly useless contexttype just for testing.</description>
+        <categories>
+            <category>testing</category>
+            <category>stupid</category>
+		</categories>
+		<web>http://www.bla.com</web>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.context.info.environment.light</id>
+        <name>Ambient Light</name>
+        <description>Represents the lighting in the ambient space</description>
+        <categories>
+            <category>environment</category>
+            <category>light</category>
+            <category>ambient</category>
+		</categories>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.context.info.environment.temperature</id>
+        <name>Ambient Temperature</name>
+        <description>Representing the ambient temeperatur in degrees Celcius.</description>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.photodetector.luxvalue</id>
+        <name>Ambient Light</name>
+        <description>Represents the lighting in the ambient space</description>
+        <redirect>org.ambientdynamix.contextplugins.context.info.environment.light</redirect>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.ambientmedia.discovery</id>
+        <name>Media Discovery</name>
+        <description>Discovering media renderers in the vecinity</description>
+    </dataType>
+</contextTypes>
