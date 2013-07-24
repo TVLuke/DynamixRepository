@@ -62,63 +62,63 @@ It sensdes data around the users phone
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
-	<contextPlugin 
-		metadataVersion="1.0.3" 
-		repoType="simple-network"
-		id="org.ambientdynamix.contextplugins.ubastationplugin" 
-		pluginVersion="1.0.0" 
-		pluginType="AUTO" 
-		provider="TVLukeProductions" 
-		platform="android" 
-		minPlatformVersion="2.0" 
-		minFrameworkVersion="0.9.39" 
-		requiresConfiguration="true" 
-		hasConfigurationView="true" 
-		runtimeFactoryClass="org.ambientdynamix.contextplugins.ubastationplugin.PluginFactory">
-		<name>UBA Station Plugin</name>
-		<description>Retrives data from the web that is provided  by stations from the German environmental protection agency.</description>
-		<supportedPrivacyRiskLevels>
-			<privacyRiskLevel name="LOW">
-			The plug-in only retrieves publically avaliable data.
-			</privacyRiskLevel>
-		</supportedPrivacyRiskLevels>
-		<supportedContextTypes>
-			<dataType>org.ambientdynamix.contextplugins.context.info.environment.carbonmonoxide</dataType>
-			<dataType>org.ambientdynamix.contextplugins.context.info.environment.particulates10</dataType>
-		</supportedContextTypes>
-		<featureDependencies/>
-		<permissions/>
-		<installUrl>https://github.com/TVLuke/UBAStationPlugin/raw/master/dist/org.ambientdynamix.contextplugins.ubastationplugin_1.0.3.jar</installUrl>
-		<updateUrl/>
-		<updateMessage priority="OPTIONAL"/>
-	</contextPlugin>
-	<contextPlugin 
-		metadataVersion="1.0.0" 
-		repoType="simple-network"
-		id="org.ambientdynamix.contextplugins.currenttime" 
-		pluginVersion="1.0.0" 
-		pluginType="AUTOREACTIVE" 
-		provider="TVLukeProductions" 
-		platform="android" 
-		minPlatformVersion="2.0" 
-		minFrameworkVersion="0.9.39" 
-		requiresConfiguration="false" 
-		hasConfigurationView="false" 
-		runtimeFactoryClass="org.ambientdynamix.contextplugins.currenttime.PluginFactory">
-		<name>Current Time Plugin</name>
-		<description>Returns the current time</description>
-		<supportedPrivacyRiskLevels>
-			<privacyRiskLevel name="LOW">
-			The plug-in only retrieves a gloably known entety that is nonspecific to the suer: time.
-			</privacyRiskLevel>
-		</supportedPrivacyRiskLevels>
-		<supportedContextTypes>
-			<dataType>org.ambientdynamix.contextplugins.context.info.environment.currenttime</dataType>
-		</supportedContextTypes>
-		<featureDependencies/>
-		<permissions/>
-		<installUrl>https://github.com/TVLuke/DynamixCurrentTimePlugin/raw/master/dist/org.ambientdynamix.contextplugins.currenttime_1.0.0.jar</installUrl>
-		<updateUrl/>
-		<updateMessage priority="OPTIONAL"/>
-	</contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.3" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.ubastationplugin" 
+	pluginVersion="1.0.0" 
+	pluginType="AUTO" 
+	provider="TVLukeProductions" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.39" 
+	requiresConfiguration="true" 
+	hasConfigurationView="true" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.ubastationplugin.PluginFactory">
+<name>UBA Station Plugin</name>
+<description>Retrives data from the web that is provided  by stations from the German environmental protection agency.</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="LOW">
+The plug-in only retrieves publically avaliable data.
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.context.info.environment.carbonmonoxide</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.environment.particulates10</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/UBAStationPlugin/raw/master/dist/org.ambientdynamix.contextplugins.ubastationplugin_1.0.3.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.0" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.currenttime" 
+	pluginVersion="1.0.0" 
+	pluginType="AUTO" 
+	provider="TVLukeProductions" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.39" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.currenttime.PluginFactory">
+<name>Current Time Plugin</name>
+<description>Returns the current time</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="LOW">
+The plug-in only retrieves a gloably known entety that is nonspecific to the suer: time.
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.context.info.environment.currenttime</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/DynamixCurrentTimePlugin/raw/master/dist/org.ambientdynamix.contextplugins.currenttime_1.0.0.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
 </contextPlugins>
