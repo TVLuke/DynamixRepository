@@ -37,7 +37,7 @@ Doesnt actually do anything.
 	provider="TVLukeProductions" 
 	platform="android" 
 	minPlatformVersion="2.0" 
-	minFrameworkVersion="0.9.39" 
+	minFrameworkVersion="0.9.54" 
 	requiresConfiguration="true" 
 	hasConfigurationView="true" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.sensordrone.PluginFactory">
@@ -71,7 +71,7 @@ It sensdes data around the users phone
 	provider="TVLukeProductions" 
 	platform="android" 
 	minPlatformVersion="2.0" 
-	minFrameworkVersion="0.9.39" 
+	minFrameworkVersion="0.9.54" 
 	requiresConfiguration="true" 
 	hasConfigurationView="true" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.ubastationplugin.PluginFactory">
@@ -101,7 +101,7 @@ The plug-in only retrieves publically avaliable data.
 	provider="TVLukeProductions" 
 	platform="android" 
 	minPlatformVersion="2.0" 
-	minFrameworkVersion="0.9.39" 
+	minFrameworkVersion="0.9.54" 
 	requiresConfiguration="false" 
 	hasConfigurationView="false" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.currenttime.PluginFactory">
