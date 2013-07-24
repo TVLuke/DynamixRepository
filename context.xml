@@ -42,4 +42,14 @@
         <name>Media Discovery</name>
         <description>Discovering media renderers in the vecinity</description>
     </dataType>
+    <datatType>
+		<id>org.ambientdynamix.contextplugins.environment.currenttime</id>
+		<name>Current Time</name>
+		<shortDescription>The current Time</shortDescription>
+		<description>This datatype provides a java object containing the time and date of its creation. the validity is one second. The datatype is modeled after 
+		    JodaTime Class DateTime but does not provide the methods to compare or change the data, only to retreive it.
+		    
+		    It provides acces to the time as a String formated yyyy-mm-dd hh:mm:ss as well as access to an XML-representation and a json representation.
+		</description>
+	</datatType>
 </contextTypes>

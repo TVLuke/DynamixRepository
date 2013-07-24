@@ -16,8 +16,10 @@
 	                        <xs:element name="shortDescription" type="xs:string"/>
 	                        <!-- Long description for a website or other information portal. It will describe inplementation details and files structures and is sort of a documentation. -->
 	                        <xs:element name="description" type="xs:string"/>
-	                        <!-- Describing the element in an ontology or other systematic way of the application area. -->
+	                        <!-- This is a link, the file it links to may describe the element in an ontology or other systematic way of the application area. -->
 	                        <xs:element name="systematicDescription" type="xs:string"/>
+							<!-- each datatype should reference to an interface (as long as we are using java) which defines the methods that can be executed and the datatypes requred. this gives the name of that interface (which can then be recovered from somewhere). -->
+   	                        <xs:element name="interface" type="xs:string"/>
 	                        <!-- The categories are kind of like a tagging system. -->
 	                        <xs:element name="categories" maxOccurs="unbounded" minOccurs="0">
 	                            <xs:complexType>
