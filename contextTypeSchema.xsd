@@ -45,7 +45,7 @@
 	                        		</xs:sequence>
 	                        	</xs:complexType>
 	                        </xs:element>
-	                        <!-- redirect should be ste if a better, new dataType has been introduced that should supercede this one, its kind of a deprecated symbol -->
+	                        <!-- redirect should be set if a better, new dataType has been introduced that should supercede this one, its kind of a deprecated symbol -->
 	                        <xs:element name="redirect" type="xs:string" maxOccurs="1" minOccurs="0"/>
 	                	</xs:sequence>
                     </xs:complexType>
