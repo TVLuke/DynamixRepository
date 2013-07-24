@@ -1,13 +1,20 @@
+<?xml version="1.0"?>
+
 <contextTypes>
     <dataType>
         <id>org.ambientdynamix.contextplugins.reddot</id>
         <name>Red Dot</name>
+        <shortDescription>Utterly useless contexttype just for testing.</shortDescription>
         <description>Utterly useless contexttype just for testing.</description>
         <categories>
             <category>testing</category>
             <category>stupid</category>
 		</categories>
 		<web>http://www.bla.com</web>
+		<logo>
+		    <on>http://www.lukeslog.de/stuff/reddoton.png</on>
+		    <off>http://www.lukeslog.de/stuff/reddotoff.png</off>
+		</logo>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.environment.light</id>

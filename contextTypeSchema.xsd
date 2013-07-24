@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.contexttypes.ambientdynamix.org"
+    xmlns="http://www.contexttypes.ambientdynamix.org">
+    
+    <xs:element name="contextTypes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dataType" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                    	<xs:sequence>
+	                        <xs:element name="id" type="xs:string" maxOccurs="1" minOccurs="1"/>
+	                        <!-- human readable name for the contextType -->
+	                        <xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1"/>
+	                        <!-- Short description for applications where the reader only needs to know what the context type represents -->
+	                        <xs:element name="shortDescription" type="xs:string"/>
+	                        <!-- Long description for a website or other information portal. It will describe inplementation details and files structures and is sort of a documentation. -->
+	                        <xs:element name="description" type="xs:string"/>
+	                        <!-- Describing the element in an ontology or other systematic way of the application area. -->
+	                        <xs:element name="systematicDescription" type="xs:string"/>
+	                        <!-- The categories are kind of like a tagging system. -->
+	                        <xs:element name="categories" maxOccurs="unbounded" minOccurs="0">
+	                            <xs:complexType>
+	                            	<xs:sequence>
+	                                	<xs:element name="category" type="xs:string"/>
+	                                </xs:sequence>
+	                            </xs:complexType>
+	                        </xs:element>
+	                        <!-- If there is a seperate website (for example the developers website) this may be entered here -->
+	                        <xs:element name="web" type="xs:string"/>
+	                        <!-- For display  in apps and website logos are required they should be 64x64 pixels and the off-logo should be a grey version of the on-logo-->
+	                        <xs:element name="logo">
+	                            <xs:complexType>
+	                                <xs:sequence>
+	                                    <xs:element name="on" type="xs:string" maxOccurs="1" minOccurs="1"/>
+	                                    <xs:element name="off" type="xs:string" maxOccurs="1" minOccurs="1"/>
+	                                </xs:sequence>
+	                            </xs:complexType>
+	                        </xs:element>
+	                        <!-- While not neccesary, because dynamix can provide this information, it should be noted, which plug-ins do implement this datatype -->
+	                        <xs:element name="plugins" maxOccurs="unbounded" minOccurs="0">
+	                        	<xs:complexType>
+	                        		<xs:sequence>
+	                        			<xs:element name="pluginID" type="xs:string"/>
+	                        		</xs:sequence>
+	                        	</xs:complexType>
+	                        </xs:element>
+	                        <!-- redirect should be ste if a better, new dataType has been introduced that should supercede this one, its kind of a deprecated symbol -->
+	                        <xs:element name="redirect" type="xs:string" maxOccurs="1" minOccurs="0"/>
+	                	</xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
