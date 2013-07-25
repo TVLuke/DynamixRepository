@@ -151,4 +151,43 @@ High privacy risk since this data may be used to effectefly place addvertising t
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
+<contextPlugin 
+    metadataVersion="1.0.0" 
+    repoType="simple-file" 
+    id="org.ambientdynamix.contextplugins.simpleartnetplugin" 
+    pluginVersion="1.0.0" 
+    pluginType="REACTIVE" 
+    provider="Dynamix Project" 
+    platform="android" 
+    minPlatformVersion="2.0" 
+    minFrameworkVersion="0.9.45" 
+    requiresConfiguration="false" 
+    hasConfigurationView="true" 
+    runtimeFactoryClass="org.ambientdynamix.contextplugins.simpleartnetplugin.PluginFactory">
+<name>Simple Artnet Plugin</name>
+<description>
+Controls DMX-based lighting equipment using the ArtNet protocol.
+</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="LOW">
+Controls DMX-based lighting equipment using the ArtNet protocol!
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.artnet</dataType>
+<dataType>org.ambientdynamix.contextplugins.artnet.interaction</dataType>
+</supportedContextTypes>
+<featureDependencies>
+<usesFeature android:name="android.hardware.wifi" android:required="false"/>
+</featureDependencies>
+<permissions>
+<permission>Context.INPUT_METHOD_SERVICE</permission>
+<permission>Context.WINDOW_SERVICE</permission>
+</permissions>
+<installUrl>
+http://repo.ambientdynamix.org/dynamix/context_plugins/live9/org.ambientdynamix.contextplugins.simpleartnetplugin_1.0.0.jar
+</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
 </contextPlugins>
