@@ -121,4 +121,33 @@ High privacy risk since this data may be used to effectefly place addvertising t
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.0" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.currentactivity" 
+	pluginVersion="1.0.0" 
+	pluginType="AUTO" 
+	provider="TVLukeProductions" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.54" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.currentactivity.PluginFactory">
+<name>Current Activity</name>
+<description>Returns the currently running mobile phone activity</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="HIGH">
+High privacy risk since it checks what apps a person uses.
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.context.info.device.currentactivity</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/DynamixCurrentActivityPlugin/raw/master/dist/org.ambientdynamix.contextplugins.currentactivity_1.0.0.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
 </contextPlugins>
