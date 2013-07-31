@@ -142,7 +142,8 @@ High privacy risk since it checks what apps a person uses.
 </privacyRiskLevel>
 </supportedPrivacyRiskLevels>
 <supportedContextTypes>
-<dataType>org.ambientdynamix.contextplugins.context.info.device.currentactivity</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.device.frontapplications</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.device.runningapplications</dataType>
 </supportedContextTypes>
 <featureDependencies/>
 <permissions/>
