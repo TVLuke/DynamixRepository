@@ -43,7 +43,7 @@
         <description>Discovering media renderers in the vecinity</description>
     </dataType>
     <datatType>
-		<id>org.ambientdynamix.contextplugins.environment.currenttime</id>
+		<id>org.ambientdynamix.contextplugins.context.info.environment.currenttime</id>
 		<name>Current Time</name>
 		<shortDescription>The current Time</shortDescription>
 		<description>This datatype provides a java object containing the time and date of its creation. the validity is one second. The datatype is modeled after 
