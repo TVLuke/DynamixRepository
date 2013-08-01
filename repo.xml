@@ -132,8 +132,8 @@ High privacy risk since it checks what apps a person uses.
 	platform="android" 
 	minPlatformVersion="2.0" 
 	minFrameworkVersion="0.9.54" 
-	requiresConfiguration="true" 
-	hasConfigurationView="true" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.lastfm.PluginFactory">
 <name>Last.fm Plugin</name>
 <description>Gathers Data from the Last.fm account.</description>
