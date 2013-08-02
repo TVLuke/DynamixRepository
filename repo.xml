@@ -126,7 +126,7 @@ High privacy risk since it checks what apps a person uses.
 	metadataVersion="1.0.0" 
 	repoType="simple-network"
 	id="org.ambientdynamix.contextplugins.lastfm" 
-	pluginVersion="1.0.0" 
+	pluginVersion="1.0.1" 
 	pluginType="AUTO" 
 	provider="TVLukeProductions" 
 	platform="android" 
@@ -147,7 +147,7 @@ Music Listening Habbits are kind of personal...
 </supportedContextTypes>
 <featureDependencies/>
 <permissions/>
-<installUrl>https://github.com/TVLuke/DynamixLastfmPlugin/raw/master/dist/org.ambientdynamix.contextplugins.lastfm_1.0.0.jar</installUrl>
+<installUrl>https://github.com/TVLuke/DynamixLastfmPlugin/raw/master/dist/org.ambientdynamix.contextplugins.lastfm_1.0.1.jar</installUrl>
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
