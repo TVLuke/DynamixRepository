@@ -190,14 +190,14 @@ Music Listening Habbits are kind of personal...
 	platform="android" 
 	minPlatformVersion="2.0" 
 	minFrameworkVersion="0.9.54" 
-	requiresConfiguration="true" 
-	hasConfigurationView="true" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.ping.PluginFactory">
 <name>Ping Plugin</name>
 <description>returns the ping</description>
 <supportedPrivacyRiskLevels>
 <privacyRiskLevel name="LOW">
-Just returns a ping with the identical Id.
+Just returns a ping with the identical Id. Only supports configured requests with an id in the field id.
 </privacyRiskLevel>
 </supportedPrivacyRiskLevels>
 <supportedContextTypes>
