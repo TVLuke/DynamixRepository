@@ -25,6 +25,28 @@
 		<contextType>info</contextType>
     </dataType>
     <dataType>
+        <id>org.ambientdynamix.contextplugins.context.action.environment.light</id>
+        <name>Ambient Light Control</name>
+        <shortDescription>Allows for the control of ambient Light</shortDescription>
+        <categories>
+            <category>Environment</category>
+            <category>Light</category>
+            <category>Ambient</category>
+		</categories>
+		<contextType>action</contextType>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.context.info.environment.lightsources</id>
+        <name>Ambient Light Sources</name>
+        <shortDescription>Provides data on controlable light sources</shortDescription>
+        <categories>
+            <category>Environment</category>
+            <category>Light</category>
+            <category>Ambient</category>
+		</categories>
+		<contextType>info</contextType>
+    </dataType>
+    <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.environment.temperature</id>
         <name>Ambient Temperature</name>
         <shortDescription>Representing the ambient temeperatur in degrees Celcius.</shortDescription>
@@ -174,6 +196,7 @@
 	<dataType>
 	    <id>org.ambientdynamix.contextplugins.artnet</id>
 	    <contextType>action</contextType>
+	    <redirect>org.ambientdynamix.contextplugins.context.action.environment.light</redirect>
 	</dataType>
 	<dataType>
 	    <id>org.ambientdynamix.contextplugins.context.info.device.screenstatus</id>
