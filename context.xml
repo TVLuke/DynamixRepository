@@ -208,4 +208,9 @@
 	    <name>Speech To Text</name>
 	    <contextType>info</contextType>
 	</dataType>
+		<dataType>
+	    <id>org.ambientdynamix.contextplugins.context.info.sample.ping</id>
+	    <name>Ping</name>
+	    <contextType>info</contextType>
+	</dataType>
 </contextTypes>
