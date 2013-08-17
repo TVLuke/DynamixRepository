@@ -213,4 +213,10 @@
 	    <name>Ping</name>
 	    <contextType>info</contextType>
 	</dataType>
+		</dataType>
+		<dataType>
+	    <id>org.ambientdynamix.contextplugins.context.info.device.information</id>
+	    <name>Device Information</name>
+	    <contextType>info</contextType>
+	</dataType>
 </contextTypes>
