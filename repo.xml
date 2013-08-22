@@ -248,8 +248,8 @@ Returns data including IP, DeviceType and other information, which may reveal so
 	platform="android" 
 	minPlatformVersion="2.0" 
 	minFrameworkVersion="0.9.54" 
-	requiresConfiguration="false" 
-	hasConfigurationView="false" 
+	requiresConfiguration="true" 
+	hasConfigurationView="true" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.hue.PluginFactory">
 <name>Hue Plugin</name>
 <description>hue</description>
