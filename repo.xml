@@ -252,7 +252,7 @@ Returns data including IP, DeviceType and other information, which may reveal so
 	hasConfigurationView="true" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.hue.PluginFactory">
 <name>Hue Plugin</name>
-<description>hue2</description>
+<description>hue x</description>
 <supportedPrivacyRiskLevels>
 <privacyRiskLevel name="MEDIUM">
 Contoling Light
