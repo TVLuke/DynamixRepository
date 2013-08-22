@@ -267,7 +267,7 @@ Contoling Light
 </supportedContextTypes>
 <featureDependencies/>
 <permissions/>
-<installUrl>https://github.com/TVLuke/DynamixDeviceInformationPlugin/raw/master/dist/org.ambientdynamix.contextplugins.deviceinfo_1.0.0.jar</installUrl>
+<installUrl>https://github.com/TVLuke/DynamixHuePlugin/raw/master/dist/org.ambientdynamix.contextplugins.hue_1.0.0.jar</installUrl>
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
