@@ -238,4 +238,37 @@ Returns data including IP, DeviceType and other information, which may reveal so
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.0" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.hue" 
+	pluginVersion="1.0.0" 
+	pluginType="AUTO" 
+	provider="TVLukeProductions" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.54" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.deviceinfo.hue">
+<name>Device Information</name>
+<description>returns technical data on the device and its network and connectivity</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="MEDIUM">
+Returns data including IP, DeviceType and other information, which may reveal some private data.
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.context.action.environment.light</dataType>
+<dataType>org.ambientdynamix.contextplugins.artnet</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.environment.lightsources</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.action.device.identification</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.device.information</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/DynamixDeviceInformationPlugin/raw/master/dist/org.ambientdynamix.contextplugins.deviceinfo_1.0.0.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
 </contextPlugins>
