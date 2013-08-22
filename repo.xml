@@ -251,11 +251,11 @@ Returns data including IP, DeviceType and other information, which may reveal so
 	requiresConfiguration="false" 
 	hasConfigurationView="false" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.deviceinfo.hue">
-<name>Device Information</name>
-<description>returns technical data on the device and its network and connectivity</description>
+<name>Hue Plugin</name>
+<description>hue</description>
 <supportedPrivacyRiskLevels>
 <privacyRiskLevel name="MEDIUM">
-Returns data including IP, DeviceType and other information, which may reveal some private data.
+Contoling Light
 </privacyRiskLevel>
 </supportedPrivacyRiskLevels>
 <supportedContextTypes>
