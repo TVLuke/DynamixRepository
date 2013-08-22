@@ -250,7 +250,7 @@ Returns data including IP, DeviceType and other information, which may reveal so
 	minFrameworkVersion="0.9.54" 
 	requiresConfiguration="false" 
 	hasConfigurationView="false" 
-	runtimeFactoryClass="org.ambientdynamix.contextplugins.deviceinfo.hue">
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.hue.PluginFactory">
 <name>Hue Plugin</name>
 <description>hue</description>
 <supportedPrivacyRiskLevels>
