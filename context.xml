@@ -5,12 +5,14 @@
         <id>org.ambientdynamix.contextplugins.context.info.device.frontapplications</id>
         <name>Watched Application</name>
         <shortDescription>The Application or Program-UI that is currently focused and in the Front of the screen.</shortDescription>
+        <csd>https://raw.github.com/TVLuke/DynamixCurrentActivityPlugin/master/src/org/ambientdynamix/contextplugins/currentactivity/org.ambientdynamix.contextplugins.context.info.device.frontapplications.xsd</csd>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.device.runningapplications</id>
         <name>Running Applications</name>
         <shortDescription>All aplications or programms currently running on the system.</shortDescription>
+        <xsd>https://raw.github.com/TVLuke/DynamixCurrentActivityPlugin/master/src/org/ambientdynamix/contextplugins/currentactivity/org.ambientdynamix.contextplugins.context.info.device.runningapplications.xsd</xsd>
         <contextType>info</contextType>
     </dataType>
     <dataType>
@@ -192,6 +194,7 @@
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.environment.currentsong</id>
         <name>Currently Playing Song</name>
+        <xsd>https://raw.github.com/TVLuke/DynamixLastfmPlugin/master/src/org/ambientdynamix/contextplugins/lastfm/org.ambientdynamix.contextplugins.context.info.environment.currentsong.xsd</xsd>
         <contextType>info</contextType>
     </dataType>
     <dataType>
@@ -219,6 +222,7 @@
 	<dataType>
 	    <id>org.ambientdynamix.contextplugins.context.info.device.screenstatus</id>
 	    <name>Screen Status</name>
+	    <xsd>https://raw.github.com/TVLuke/DynamixScreenStatusPlugin/master/src/org/ambientdynamix/contextplugins/screenstatus/org.ambientdynamix.contextplugins.context.info.device.screenstatus.xsd</xsd>
 	    <contextType>info</contextType>
 	</dataType>
 	<dataType>
