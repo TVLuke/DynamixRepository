@@ -3,13 +3,13 @@
 <contextTypes>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.device.frontapplications</id>
-        <name>Currently Watched Application</name>
+        <name>Watched Application</name>
         <shortDescription>The Application or Program-UI that is currently focused and in the Front of the screen.</shortDescription>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.device.runningapplications</id>
-        <name>Currently Running Applications</name>
+        <name>Running Applications</name>
         <shortDescription>All aplications or programms currently running on the system.</shortDescription>
         <contextType>info</contextType>
     </dataType>
@@ -54,7 +54,7 @@
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.environment.carbonmonoxide</id>
-        <name>Ambient Carbon Monoxide Level</name>
+        <name>Ambient CO Level</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
@@ -69,7 +69,7 @@
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.context.action.device.identification</id>
-        <name>Hardware Identification</name>
+        <name>Device Identification</name>
         <contextType>action</contextType>
         <shortDescription>Identify the hardware that is currently used to create the context. The type of identification may varry depending on the plugin.</shortDescription>
         <description>
@@ -160,7 +160,7 @@
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.sample_context_info</id>
-        <name>Sample Context Information</name>
+        <name>Sample Context</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>

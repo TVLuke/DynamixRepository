@@ -22,6 +22,8 @@
    	                        <xs:element name="interface" type="xs:string"/>
    	                        <!-- The url for the xsd for the XML Text representation -->
    	                        <xs:element name="xsd" type="xs:string"/>
+   	                         <!-- The url for the json schema for the XML Text representation -->
+   	                        <xs:element name="jsonschemea" type="xs:string"/>
    	                        <!-- either info or action -->
    	                        <xs:element name="contextType" type="xs:string"/>
 	                        <!-- The categories are kind of like a tagging system. -->
