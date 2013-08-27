@@ -20,6 +20,8 @@
 	                        <xs:element name="systematicDescription" type="xs:string"/>
 							<!-- each datatype should reference to an interface (as long as we are using java) which defines the methods that can be executed and the datatypes requred. this gives the name of that interface (which can then be recovered from somewhere). -->
    	                        <xs:element name="interface" type="xs:string"/>
+   	                        <!-- The url for the xsd for the XML Text representation -->
+   	                        <xs:element name="xsd" type="xs:string"/>
    	                        <!-- either info or action -->
    	                        <xs:element name="contextType" type="xs:string"/>
 	                        <!-- The categories are kind of like a tagging system. -->

@@ -95,38 +95,47 @@
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.ambientmedia.interaction</id>
+        <name>Media Interaction</name>
         <contextType>action</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.batterylevel</id>
+        <name>Battery Level</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.location</id>
+        <name>Location</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.zeo.sleep.records</id>
+        <name>Zeo Sleep Records</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.zeo.headband.status</id>
+        <name>Zeo Headband Status</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.pedometer</id>
+        <name>Step Counter</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>de.smartassist.contextplugin.profileinfo</id>
+        <name>Smartassist Profile Info</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>de.smartassist.contextplugin.simplesensorvalues</id>
+        <name>Smartassist Sensor Data</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.wirelessbeacons</id>
+        <name>Wifi Beacons</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
@@ -136,34 +145,42 @@
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.loadtester</id>
+        <name>Load Tester</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.barcode</id>
+        <name>Barcode Data</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.ambientsound</id>
+        <name>Ambient Sound</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.sample_context_info</id>
+        <name>Sample Context Information</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.nfc.tag</id>
+        <name>NFC Tag</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.nfc.smart_poster</id>
+        <name>NFC Smart Poster</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
         <id>org.ambientdynamix.contextplugins.nfc.text_record</id>
+        <name>NFC Text Record</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
-        <id>org.ambientdynamix.contextplugins.nfc.uri_record</id>#
+        <id>org.ambientdynamix.contextplugins.nfc.uri_record</id>
+        <name>NFC URI Record</name>
         <contextType>info</contextType>
     </dataType>
     <dataType>
@@ -195,6 +212,7 @@
 	</dataType>
 	<dataType>
 	    <id>org.ambientdynamix.contextplugins.artnet</id>
+	    <name>Ambient Light Control</name>
 	    <contextType>action</contextType>
 	    <redirect>org.ambientdynamix.contextplugins.context.action.environment.light</redirect>
 	</dataType>
@@ -211,6 +229,7 @@
 		<dataType>
 	    <id>org.ambientdynamix.contextplugins.context.info.sample.ping</id>
 	    <name>Ping</name>
+	    <xsd>https://raw.github.com/TVLuke/DynamixPingPlugin/master/src/org/ambientdynamix/contextplugins/ping/org.ambientdynamix.contextplugins.context.info.sample.ping.xsd</xsd>
 	    <contextType>info</contextType>
 	</dataType>
 	<dataType>
