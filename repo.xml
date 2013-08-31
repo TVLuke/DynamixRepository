@@ -281,8 +281,8 @@ Contoling Light
 	platform="android" 
 	minPlatformVersion="2.0" 
 	minFrameworkVersion="0.9.54" 
-	requiresConfiguration="true" 
-	hasConfigurationView="true" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
 	runtimeFactoryClass="org.ambientdynamix.contextplugins.whiteboard.PluginFactory">
 <name>Whiteboard Plugin</name>
 <description>Store and retreive key value pairs.</description>
