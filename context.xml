@@ -241,4 +241,14 @@
 	    <name>Device Information</name>
 	    <contextType>info</contextType>
 	</dataType>
+	<dataType>
+	    <id>org.ambientdynamix.contextplugins.context.info.data.whiteboard</id>
+	    <name>Whiteboard Data</name>
+	    <contextType>info</contextType>
+	</dataType>
+	<dataType>
+	    <id>org.ambientdynamix.contextplugins.context.action.data.whiteboard</id>
+	    <name>Whiteboard Storing</name>
+	    <contextType>action</contextType>
+	</dataType>
 </contextTypes>
