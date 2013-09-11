@@ -168,18 +168,21 @@ High privacy risk since it checks what apps a person uses.
 <description>Gathers Data from the Last.fm account.</description>
 <supportedPrivacyRiskLevels>
 <privacyRiskLevel name="MEDIUM">
-Music Listening Habbits are kind of personal...
+Music Listening Habbits are kind of personal... but on the other hand they are already public on last.fm
 </privacyRiskLevel>
 </supportedPrivacyRiskLevels>
 <supportedContextTypes>
 <dataType>org.ambientdynamix.contextplugins.context.info.environment.currentsong</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.info.taste.musictaste</dataType>
+<dataType>org.ambientdynamix.contextplugins.context.action.data.scrobblesong</dataType>
 </supportedContextTypes>
 <featureDependencies/>
 <permissions/>
-<installUrl>https://github.com/TVLuke/DynamixLastfmPlugin/raw/master/dist/org.ambientdynamix.contextplugins.lastfm_1.0.1.jar</installUrl>
+<installUrl>https://github.com/TVLuke/DynamixLastfmPlugin/raw/master/dist/org.ambientdynamix.contextplugins.lastfm_1.0.2.jar</installUrl>
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
+
 <contextPlugin 
 	metadataVersion="1.0.0" 
 	repoType="simple-network"

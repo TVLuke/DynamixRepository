@@ -198,6 +198,18 @@
         <contextType>info</contextType>
     </dataType>
     <dataType>
+        <id>org.ambientdynamix.contextplugins.context.info.taste.musictaste</id>
+        <name>Music Taste</name>
+        <shortDescription>Information about most listened to track, artists and favorite songs.</shortDescription>
+        <contextType>info</contextType>
+    </dataType>
+    <dataType>
+        <id>org.ambientdynamix.contextplugins.context.action.data.scrobblesong</id>
+        <name>Last.fm Song Scrobbling</name>
+        <shortDescription>Allows to Scrobble Songs via a plugin that knows last.fm log in data.</shortDescription>
+        <contextType>action</contextType>
+    </dataType>
+    <dataType>
         <id>org.ambientdynamix.contextplugins.context.info.person.foaffile</id>
         <name>Friend Of A Friend File</name>
         <contextType>info</contextType>
