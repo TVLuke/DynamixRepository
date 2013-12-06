@@ -155,7 +155,7 @@ High privacy risk since it checks what apps a person uses.
 	metadataVersion="1.0.0" 
 	repoType="simple-network"
 	id="org.ambientdynamix.contextplugins.lastfm" 
-	pluginVersion="1.0.1" 
+	pluginVersion="1.0.2" 
 	pluginType="AUTO" 
 	provider="TVLukeProductions" 
 	platform="android" 
@@ -330,6 +330,35 @@ Retreiving personal data.
 <featureDependencies/>
 <permissions/>
 <installUrl>https://github.com/TVLuke/DynamixFoafPlugin/raw/master/dist/org.ambientdynamix.contextplugins.foaf_1.0.0.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.0" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.remoteaccess" 
+	pluginVersion="1.0.0" 
+	pluginType="AUTO" 
+	provider="TVLukeProductions" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.54" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.remoteaccess.PluginFactory">
+<name>Remote Access</name>
+<description>Session Keys for Apps</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="HIGH">
+Access Tolkens should be handled carefully
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.context.info.access.sessionkey</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/SessionManagerPlugin/raw/master/dist/org.ambientdynamix.contextplugins.remoteaccess_1.0.1.jar</installUrl>
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
