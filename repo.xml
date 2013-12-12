@@ -362,4 +362,36 @@ Access Tolkens should be handled carefully
 <updateUrl/>
 <updateMessage priority="OPTIONAL"/>
 </contextPlugin>
+<contextPlugin 
+	metadataVersion="1.0.0" 
+	repoType="simple-network"
+	id="org.ambientdynamix.contextplugins.nfc" 
+	pluginVersion="1.0.2" 
+	pluginType="AUTO" 
+	provider="Dynamix Framework Project" 
+	platform="android" 
+	minPlatformVersion="2.0" 
+	minFrameworkVersion="0.9.54" 
+	requiresConfiguration="false" 
+	hasConfigurationView="false" 
+	runtimeFactoryClass="org.ambientdynamix.contextplugins.nfc.PluginFactory">
+<name>NFC Plugin</name>
+<description>Getting Data from NFC Stuff</description>
+<supportedPrivacyRiskLevels>
+<privacyRiskLevel name="MEDIUM">
+Extracted Data may implictly be privacy relevant
+</privacyRiskLevel>
+</supportedPrivacyRiskLevels>
+<supportedContextTypes>
+<dataType>org.ambientdynamix.contextplugins.nfc.smart_poster</dataType>
+<dataType>org.ambientdynamix.contextplugins.nfc.tag</dataType>
+<dataType>org.ambientdynamix.contextplugins.nfc.text_record</dataType>
+<dataType>org.ambientdynamix.contextplugins.nfc.uri_record</dataType>
+</supportedContextTypes>
+<featureDependencies/>
+<permissions/>
+<installUrl>https://github.com/TVLuke/DynamixNFCPlugin/raw/master/dist/org.ambientdynamix.contextplugins.nfc_1.0.2.jar</installUrl>
+<updateUrl/>
+<updateMessage priority="OPTIONAL"/>
+</contextPlugin>
 </contextPlugins>
